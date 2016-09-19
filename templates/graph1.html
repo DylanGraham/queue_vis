@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"/>
 </head>
 <body>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
     <script>var diameter = 960,
     format = d3.format(",d"),
     color = d3.scale.category20c();
@@ -36,7 +36,7 @@ d3.json("static/test.json", function(error, root) {
 
   node.append("circle")
       .attr("r", function(d) { return d.r; })
-      .style("fill", function(d) { return color(d.packageName); });
+      .style("fill", function(d) { return color(d.className); });
 
   node.append("text")
       .attr("dy", ".3em")
@@ -58,8 +58,6 @@ function classes(root) {
 }
 
 d3.select(self.frameElement).style("height", diameter + "px");</script>
-
-
 
 </body>
 </html>
