@@ -1,10 +1,25 @@
 { "name": "test",
-  "children": [
-    {"name": "bacillus", "size": 1242},
-    {"name": "bulls1k", "size": 70},
-    {"name": "cowfert", "size": 1},
-    {"name": "cows10k", "size": 51},
-    {"name": "das", "size": 94},
-    {"name": "pulsemarker", "size": 24}
-  ]
+    "children": [
+        {"name": "adhis", "size": "3864"},
+        {"name": "appdev", "size": "14014"},
+        {"name": "bacillus", "size": "3101"},
+        {"name": "bulls1k", "size": "243487"},
+        {"name": "cowfert", "size": "3514"},
+        {"name": "cowhealth", "size": "207"},
+        {"name": "cows10k", "size": "279417"},
+        {"name": "das", "size": "19156"},
+        {"name": "endophyte", "size": "12045"},
+        {"name": "heatstress", "size": "21253"},
+        {"name": "improveherds", "size": "41962"},
+        {"name": "interbullproofs", "size": "477"},
+        {"name": "milk", "size": "50999"},
+        {"name": "optbreeding", "size": "11208"},
+        {"name": "pasturegen", "size": "64790"},
+        {"name": "pulsemarker", "size": "21228"},
+        {"name": "rumenmeta", "size": "118699"},
+        {"name": "sheepcrc", "size": "72276"},
+        {"name": "soilbiology", "size": "15965"},
+        {"name": "wheat", "size": "13533"},
+        {"name": "zipping", "size": "35971"}
+    ]
 }
