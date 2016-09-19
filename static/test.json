@@ -1,0 +1,10 @@
+{ "name": "test",
+  "children": [
+    {"name": "bacillus", "size": 1242},
+    {"name": "bulls1k", "size": 70},
+    {"name": "cowfert", "size": 1},
+    {"name": "cows10k", "size": 51},
+    {"name": "das", "size": 94},
+    {"name": "pulsemarker", "size": 24}
+  ]
+}
